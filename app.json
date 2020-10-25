@@ -1,0 +1,29 @@
+{
+    "expo": {
+      "name": "sakar",
+      "slug": "sakar",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "description": "A Distraction Free App for Learning Online, from any source available.",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "package": "com.hobbyhacks.sakar",
+        "googleServicesFile": "./google-services.json",
+        "useNextNotificationsApi": true
+      }
+    }
+  }
+  
